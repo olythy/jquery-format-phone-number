@@ -25,8 +25,7 @@ $(".phoneNumberInput").formatPhoneNumber({format: '+(##) ## ###-####'});
 ```
 
 Valid charactes for format pattern:
-```
 [# (hash mark, it mean a number), space, rounded brackets, +, -]
 
 For example, if format is "+(##) ## ###-####" and the input text is 36771232345 then the updated value of the input will be +36 77 123-2345
-```
+
